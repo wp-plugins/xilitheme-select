@@ -3,8 +3,8 @@ Contributors: MS xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,ipod touch,iphone,Post,plugin,posts,admin,opera mini,windows mobile, multilingual
 Requires at least: 2.6.0
-Tested up to: 2.7.1
-Stable tag: 0.9.2
+Tested up to: 2.8
+Stable tag: 1.0
 
 Xilitheme select provides an automatic selection of themes : one for current browsers and another for iphone/ipod touch browser (and more).
 
@@ -76,9 +76,12 @@ www.xiliphone.mobi [here](http://www.xiliphone.mobi "a theme for mobile") usable
 
 == More infos ==
 
+= 1.0 = 
+(090615) Admin settings improvments for latest 2.8 Wordpress.
+
 *readme updated 090218 - see also php code*
 
-The plugin post is frequently updated [dev.xiligroup.com](http://dev.xiligroup.com/?p=123 "Xilitheme select")
+The plugin post is frequently updated [dev.xiligroup.com](http://dev.xiligroup.com/xilitheme-select/ "Xilitheme select")
 
 See also the [Wordpress plugins forum](http://wordpress.org/tags/xilitheme-select/).
 = 0.9.2 update : option: now able to detect opera mini browser =
