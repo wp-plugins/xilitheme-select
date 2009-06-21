@@ -76,21 +76,27 @@ www.xiliphone.mobi [here](http://www.xiliphone.mobi "a theme for mobile") usable
 
 == More infos ==
 
-= 1.0 = 
-(090615) Admin settings improvments for latest 2.8 Wordpress.
-
-*readme updated 090218 - see also php code*
-
-The plugin post is frequently updated [dev.xiligroup.com](http://dev.xiligroup.com/xilitheme-select/ "Xilitheme select")
-
-See also the [Wordpress plugins forum](http://wordpress.org/tags/xilitheme-select/).
-= 0.9.2 update : option: now able to detect opera mini browser =
-
-For wordpress theme's developers, now give specific info if mobile (not apple) use *opera mini* browser.
+= coding info =
+* readme updated 090218 - see also php code 
+* The plugin post is frequently updated [dev.xiligroup.com](http://dev.xiligroup.com/xilitheme-select/ "Xilitheme select")
+* See also the [Wordpress plugins forum](http://wordpress.org/tags/xilitheme-select/).
+* For wordpress theme's developers, now give specific info if mobile (not apple) use *opera mini* browser.
 [see Opera doc](http://dev.opera.com/articles/view/designing-with-opera-mini-in-mind/)
-
-= 0.9.1 update : option: now able to display current theme view on iPhone / iPod  =
+= display current theme view =
 If `$wp_ismobile->cookienable` is set to 1, the theme can include a tag to refresh theme as viewing on a desktop browser. See tag example in php code.
 
+© 2009-06-21 MSC dev.xiligroup.com
+
+== Changelog ==
+= 1.0 = 
+* Admin settings improvments for latest 2.8 Wordpress.
+
+= 0.9.2 = 
+* option: now able to detect opera mini browser.
+
+= 0.9.1 = 
+* option: now able to display current theme view on iPhone / iPod.
+
+© 2009-06-21 dev.xiligroup.com
 
 
