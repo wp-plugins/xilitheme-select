@@ -3,7 +3,7 @@ Contributors: MS xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,ipod touch,iphone,Post,plugin,posts,admin,opera mini,windows mobile, multilingual
 Requires at least: 2.6.0
-Tested up to: 2.8
+Tested up to: 2.8.1
 Stable tag: 1.0
 
 Xilitheme select provides an automatic selection of themes : one for current browsers and another for iphone/ipod touch browser (and more).
@@ -85,7 +85,7 @@ www.xiliphone.mobi [here](http://www.xiliphone.mobi "a theme for mobile") usable
 = display current theme view =
 If `$wp_ismobile->cookienable` is set to 1, the theme can include a tag to refresh theme as viewing on a desktop browser. See tag example in php code.
 
-© 2009-06-21 MSC dev.xiligroup.com
+© 2009-06-21 07-18 MSC dev.xiligroup.com
 
 == Changelog ==
 = 1.0 = 
@@ -97,6 +97,6 @@ If `$wp_ismobile->cookienable` is set to 1, the theme can include a tag to refre
 = 0.9.1 = 
 * option: now able to display current theme view on iPhone / iPod.
 
-© 2009-06-21 dev.xiligroup.com
+© 2009-06-21 - 07-18 dev.xiligroup.com
 
 
