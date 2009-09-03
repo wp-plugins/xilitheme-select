@@ -3,7 +3,7 @@ Contributors: MS xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,ipod touch,iphone,Post,plugin,posts,admin,opera mini,windows mobile, multilingual
 Requires at least: 2.6.0
-Tested up to: 2.8.2
+Tested up to: 2.8.4
 Stable tag: 1.0
 
 Xilitheme select provides an automatic selection of themes : one for current browsers and another for iphone/ipod touch browser (and more).
