@@ -1,13 +1,13 @@
 === Xilitheme select ===
-Contributors: MS xiligroup
+Contributors: michelwppi, MS dev.xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,ipod touch,iphone,Post,plugin,posts,admin,opera mini,windows mobile, multilingual,bilingual,ipad
 Requires at least: 2.9.2
-Tested up to: 3.0
-Stable tag: 1.0.2
+Tested up to: 3.3
+Stable tag: 1.0.3
 License: GPLv2
 
-Xilitheme select provides an automatic selection of themes : one for current browsers and another for iphone/ipod touch browser (and more).
+Xilitheme-select provides an automatic selection of themes : one for current browsers and another for iphone/ipod touch browser (and more).
 
 == Description ==
 
@@ -17,9 +17,9 @@ The plugin xilitheme-select don't content itself themes. The themes remain in Th
 
 If the themes are "international", xilitheme select don't interfere and so is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/ "xili-language").
 
-
+= roadmap =
+* incorporate new librairies of WP 3.2 and more...
 = 1.0.2 =
-
 * compatibility if current theme is a child theme - as demo [here](http://dev.xiligroup.com/) *child of default twentyten*.
 
 = 1.0.1 =
@@ -107,6 +107,8 @@ If `$wp_ismobile->cookienable` is set to 1, the theme can include a tag to refre
 
 == Changelog ==
 
+= 1.0.2, 1.0.3 =
+* maintenance releases
 = 1.0.1 = 
 * Add Android as selector - see line #50. - a newer demo theme default_4touch is available in [here](http://dev.xiligroup.com/?p=123#loadlinks "Xilitheme select links").
 
@@ -119,7 +121,7 @@ If `$wp_ismobile->cookienable` is set to 1, the theme can include a tag to refre
 = 0.9.1 = 
 * option: now able to display current theme view on iPhone / iPod.
 
-© 2010-11-09 dev.xiligroup.com
+© 2012-01-22 dev.xiligroup.com
 
 == Upgrade Notice ==
 
