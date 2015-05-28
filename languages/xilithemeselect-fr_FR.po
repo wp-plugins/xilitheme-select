@@ -1,0 +1,210 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xilitheme select\n"
+"Report-Msgid-Bugs-To: http://dev.xiligroup.com/\n"
+"POT-Creation-Date: 2015-05-28 13:36:36+00:00\n"
+"PO-Revision-Date: 2015-05-28 15:37+0100\n"
+"Last-Translator: dev.xiligroup <contact@xiligroup.com>\n"
+"Language-Team: Michel, xiligroup <contact@xiligroup.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.5\n"
+
+#: xilithemeselect.php:114
+msgid "Settings"
+msgstr "Réglages"
+
+#: xilithemeselect.php:296
+msgid "Link to see with default theme"
+msgstr "Lien pour voir le thème par défaut"
+
+#: xilithemeselect.php:297
+msgid "Default theme"
+msgstr "Thème par défaut"
+
+#: xilithemeselect.php:298
+msgid "Link to see with selected theme"
+msgstr "Lien pour voir avec le thème par défaut"
+
+#: xilithemeselect.php:299
+msgid "Selected theme"
+msgstr "Thème sélectionné"
+
+#: xilithemeselect.php:342
+msgid "Xili-theme select plugin"
+msgstr "Extension xili-theme select"
+
+#: xilithemeselect.php:342
+msgid "Xili-theme select"
+msgstr "xili-theme select"
+
+#: xilithemeselect.php:346
+msgid "Theme / Device + Browser Assignment"
+msgstr "Affectation thème / périphérique + navigateur"
+
+#: xilithemeselect.php:352
+msgid "Uses current or select a theme..."
+msgstr "thème par défaut ou choisir un thème"
+
+#: xilithemeselect.php:361
+msgid "iPhone or Ipod Touch"
+msgstr "iPhone ou Ipod Touch"
+
+#: xilithemeselect.php:362
+msgid "iPad"
+msgstr ""
+
+#: xilithemeselect.php:363
+msgid "Tier, nice touch-optimized mobile"
+msgstr "Mobile avec expérience 'touch' optimisée"
+
+#: xilithemeselect.php:364
+msgid "Other mobile device"
+msgstr "Autre périphérique mobile"
+
+#: xilithemeselect.php:365
+msgid "Other device"
+msgstr "Autre"
+
+#: xilithemeselect.php:376
+msgid "Assign a device/rule to one of the available themes."
+msgstr "Affecter une règle/périphérique à un des thèmes disponibles."
+
+#: xilithemeselect.php:410
+msgid "Xili-theme select settings"
+msgstr "Réglages xilitheme select"
+
+#: xilithemeselect.php:442
+msgid "Save Changes"
+msgstr "Enregistrer les réglages"
+
+#: xilithemeselect.php:451
+msgid "Author"
+msgstr "Auteur"
+
+#: xilithemeselect.php:467
+msgid ""
+"In this section, one available theme is assigned to a device/rule. So, when "
+"the server detects that this device is used, the current theme %s is "
+"replaced by the selected theme."
+msgstr ""
+"Dans cet espace, un thème est affecté à un périphérique / règle. Ainsi, "
+"quand le serveur détecte celui-ci, le thème courant %s est remplacé par "
+"celui qui a été défini."
+
+#: xilithemeselect.php:468
+msgid ""
+"In the first column, the name of the device (or the rule). In the second, "
+"popup selector with list of available themes. The one marked with * is the "
+"current default theme."
+msgstr ""
+"Dans la première colonne, les noms de périphériques ou de règles. Dans la "
+"seconde, un sélecteur menu déroulant avec la liste des thèmes disponibles. "
+"Celui marqué d'une * est le thème défini par défaut."
+
+#: xilithemeselect.php:532
+msgid ""
+"Things to remember to select theme according device/browser, mobile/desktop:"
+msgstr ""
+"Eléments à prendre en compte pour la sélection de thème selon le "
+"périphérique / navigateur / mobile / pc bureau :"
+
+#: xilithemeselect.php:533
+msgid ""
+"This version 2.0 (after a pause of 2 years) is completely renewed and uses "
+"latest libraries."
+msgstr ""
+"Cette version 2.0 (après une pause de 2 ans) est complètement revue et "
+"utilise les dernières bibliothèques de code."
+
+#: xilithemeselect.php:535
+msgid "Before selection, be sure that good and adapted themes are available."
+msgstr ""
+"Avant de faire les sélections, assurez-vous que des thèmes adaptés soient "
+"disponibles."
+
+#: xilithemeselect.php:536
+msgid ""
+"Theme for mobile can be very specific w/o responsive feature (javascript)."
+msgstr ""
+"Les thèmes pour mobile peuvent être très spécialisés sans les "
+"fonctionnalités javasscript liées au \"responsive\"."
+
+#: xilithemeselect.php:537
+msgid "Not yet defined, latest line \"other device\" must not be modified."
+msgstr "Non encore activé, la dernière ligne 'Autre' ne peut être modifié."
+
+#: xilithemeselect.php:538
+msgid "In further version, more flexible rules can be set."
+msgstr ""
+"Dans les prochaines versions, des réglages encore plus fins et ciblés seront "
+"possibles."
+
+#: xilithemeselect.php:540
+msgid "This version 2.0 uses latest library/class from Anthony Hand. %s"
+msgstr ""
+"Cette nouvelle version 2.0 utilise la toute dernière bibliothèque de code d' "
+"Anthony Hand. %s"
+
+#: xilithemeselect.php:541
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Documentation in WP plugin repository</a>"
+msgstr ""
+"<a href=\"%s\" target=\"_blank\">Documentation dans les dépôts des "
+"extensions WP (en)</a>"
+
+#: xilithemeselect.php:545
+msgid "About %s theme select"
+msgstr "A propos de %s theme select"
+
+#~ msgid "Plugin<strong> xilithemeselect</strong> settings saved."
+#~ msgstr "Réglages xilitheme-select sauvegardés."
+
+#~ msgid ""
+#~ "provides an automatic selection of the theme for iphone's user when "
+#~ "visiting your site.<br />Don't forget to upload a specific theme for ipod "
+#~ "touch / iphone with a right folder's name in the wp-content/themes folder."
+#~ "<br /> If an error occur, the current theme is displayed in ipod touch / "
+#~ "iphone browser."
+#~ msgstr ""
+#~ "est un plugin qui choisit automatiquement le thème qui sera affiché aux "
+#~ "utilisateurs d'iPhone / iPod Touch. <br /> Tout d'abord, ne pas oublier "
+#~ "de télécharger dans le dossier themes un dossier contenant un thème "
+#~ "spécial ‘itouch’ avec un nom adéquat (incluant l'extension ‘_4touch’)."
+#~ "<br /> Si une erreur survient, le thème pour tout navigateur sera diffusé "
+#~ "à l'iPhone / iPod Touch."
+
+#~ msgid "the current theme is"
+#~ msgstr "Le thème courant est "
+
+#~ msgid "itouch theme's folder"
+#~ msgstr "Le dossier du thème itouch "
+
+#~ msgid "is available"
+#~ msgstr "est en place"
+
+#~ msgid "is NOT available"
+#~ msgstr "n'est PAS en place"
+
+#~ msgid "in the current wp-content/themes folder."
+#~ msgstr "dans le dossier habituel ‘wp-content/themes’."
+
+#~ msgid "itouch theme's folder extension:"
+#~ msgstr "Extension du dossier du thème itouch :"
+
+#~ msgid "Option: extension or full name:"
+#~ msgstr "Option: extension ou nom complet :"
+
+#~ msgid "extension"
+#~ msgstr "extension"
+
+#~ msgid "full name"
+#~ msgstr "nom complet"
+
+#~ msgid "itouch theme's folder full name:"
+#~ msgstr "Nom complet du dossier du thème itouch :"
