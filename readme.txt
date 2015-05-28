@@ -83,7 +83,7 @@ use param : ?xilitheme=reset at end of URI
 
 == Changelog ==
 
-= 2.0 =
+= 2.0 (2015-05-28) =
 * MAJOR UPDATE
 * if using a previous version, you must to RENEW Settings via Dashboard Menu Settings/xilitheme select.
 * completely rewritten with latest WordPress functions and filters
