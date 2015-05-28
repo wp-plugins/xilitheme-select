@@ -1,113 +1,93 @@
-=== Xilitheme select ===
+=== Xili-theme select ===
 Contributors: michelwppi, MS dev.xiligroup
 Donate link: http://dev.xiligroup.com/
-Tags: theme,ipod touch,iphone,Post,plugin,posts,admin,opera mini,windows mobile, multilingual,bilingual,ipad
-Requires at least: 2.9.2
-Tested up to: 3.5.1
-Stable tag: 1.0.4
+Tags: theme,ipod touch,iphone, iPad, Post,plugin,posts,admin,opera mini,windows mobile, multilingual,bilingual,ipad, chrome, gecko
+Requires at least: 4.0
+Tested up to: 4.2.2
+Stable tag: 2.0
 License: GPLv2
 
-Xilitheme-select provides an automatic selection of themes : one for current browsers and another for iphone/ipod touch browser (and more).
+Xili-theme select is an automatic selector of theme according defined rules: one for current browsers and anothers for mobile browsers (iPhone, iPad)
 
 == Description ==
 
-*Xilitheme select provides an automatic selection of themes : one for current browsers and another for iphone/ipod touch browser (and more non "Apple touch" mobiles).*
+*Xili-theme select is an automatic selector of theme according a series of defined rules: one for current browsers and anothers for (each) mobile browsers (iPhone, iPad, and more).*
 
-The plugin xilitheme-select don't content itself themes. The themes remain in Themes folder and are selected by the current browser and the rulers defined by webmaster. Webmaster is totally free to define (the look of) the theme on each side (desktop or iPhone). There is no automatic look transformation. 
+The plugin xili-theme select don't content itself themes. The available themes remain in Themes folder and are selected between the current browser and the rulers defined by webmaster. Webmaster is totally free to define (the look of) the theme on each side (desktop or other). There is no automatic look transformation. Each available theme can be responsive or not. Plugin is compatible with child themes.
 
-If the themes are "international", xilitheme select don't interfere and so is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/ "xili-language").
+> Prerequisites : themes must be well developped according current WP core rules like well done in bundled themes.
+
+By default, Xili-theme select is provided with a small series of default rules for iPhone, iPad, and mobile based Chrome browsers. With a filter, it will be possible to define your own rules
+
+If the themes are "international", xili-theme select don't interfere and so is full compatible with [xili-language](https://wordpress.org/extend/plugins/xili-language/ "xili-language").
+
+This version 2.0 includes latest famous free library/class from Anthony Hand : [Github of mobilesp](https://github.com/ahand/mobileesp).
 
 = roadmap =
-* incorporate new librairies of WP 3.5 and more...
+* readme rewritting
+* other new rules (more flexible, new filter for theme developer/webmaster)
 
+= 2.0 =
 
-= 1.0.2 =
-* compatibility if current theme is a child theme - as demo [here](http://dev.xiligroup.com/) *child of default twentyten*.
+> it is a major update, you need to renew Settings via Dashboard Menu Settings/xilitheme select.
 
-= 1.0.1 =
-* More descriptions for non "Apple touch" mobiles/
-* A demo theme with more features - see [here](http://WordPress.org/extend/plugins/xilitheme-select/faq/) -
+* Last Updated 2015-05-28
 
-*this first release can be used by users/webmasters with knowledges about WP themes - see php code.*
+* completely rewritten
+* no need to use specific suffix theme naming as previously.
+* see [tab and chapters in changelog](https://wordpress.org/extend/plugins/xilitheme-select/changelog/)
+
 
 **prerequisite:**
-By default:
-In addition of your current selected theme add in the themes folder a theme folder named as the current with extension *'_4touch'* dedicaced for iphone browser.
 
-**Caution:** - Before use *xilitheme select*: uninstall plugins like *'iwphone'* or *'WordPress PDA & iPhone'* which do theme's redirections as this.
+**Caution:** - Before use *xili-theme select*: uninstall plugins like  *'any-mobile-theme-switcher'*, *'Device Theme Switcher'*, *'iwphone'* or *'WordPress PDA & iPhone'* which do theme's redirections as here.
 
 **Note about theme with template_page:**
 Both themes (the current and the one for iphone / ipodtouch) must contain the same template (name) - the contents can differ obviously -
+A good architecture : multiple child themes with same parent!
 
-**admin dashboard UI:**
-The interface provide ways to change default extension or choose a specific fullname (for the "iphone" theme)
-
-
-**Options:**
-See the source of the plugin to discover other type of instantiation of the class *xilithemeselector*. One provide a way to have or not a admin dashboard interface to set the specs with only php coding.
-see `$wp_ismobile = new xilithemeselector(true);` at end of code
-
-More informations on the site [dev.xiligroup.com](http://dev.xiligroup.com/ "Xilitheme select")
-
-Check out the [screenshots](http://wordpress.org/extend/plugins/xilitheme-select/screenshots/) to see it in action.
+Check out the [screenshots](https://wordpress.org/extend/plugins/xilitheme-select/screenshots/) to see it in action.
 
 == Installation ==
 
 1. Upload the folder containing `xilithemeselect.php` and language files to the `/wp-content/plugins/` directory,
-2. Upload a **specific theme** for iPhone with a folder named as current theme *+ extension* "_4touch" but don't activate it as usual. A newer demo theme default_4touch is available [here](http://dev.xiligroup.com/?p=123#loadlinks "Xilitheme select links")
-
+2. Be sure you have one theme optimized for mobile and one for desktop
 3. Activate the plugin through the *'Plugins'* menu in WordPress,
-4. Go to the dashboard settings tab - Xilitheme select - and adapt default values if necessary.
+4. Go to the dashboard settings tab - Xili-theme select - and adapt default values if necessary.
 
 == Frequently Asked Questions ==
 
-= When I visit the site with iPhone or iPhone simulator, I don't see the specific theme =
+= soon according returns in forum =
 
-Verify that the folder of this theme has a right name with right extension.
-
-= Why the option full name or extension ? =
-
-It is an easiness to choose a theme with a folder without the proposed file extension.
-
-= Do you provide a theme for these mobile device as iPhone or iTouch ? =
-
-A lite release of a theme is [here](http://dev.xiligroup.com/?p=123#loadlinks "Xilitheme select links").
-*(this theme now contains accordion features for categories list and is ready for multilingual website with plugin xili-language)*
-
-= Where can I see a running example =
-
-dev.xiligroup.com [here](http://dev.xiligroup.com/ "dev.xiligroup site")
-and
-www.xiliphone.mobi [here](http://www.xiliphone.mobi "a theme for mobile") usable with mobile as iPhone or Safari with options developer activated and agent set to iPhone.
-
-= What about iPad ? =
-iPad's Browser is very very similar to current Safari. So we decide yet to not add it in list. But it possible to modify var in top of class.
 
 == Screenshots ==
 
-1. an example of wp-content/themes folder
-2. the admin settings UI
+1. the admin settings UI
 
 == Upgrade Notice ==
 
 * Easy to upgrade through Plugins admin UI or via FTP.
-* If you changed some values inside source - backup it before upgrade -
 * Don't forget to proceed DB backup before.
 
 == More infos ==
+= soon more infos =
 
-= coding info =
-* Add Android as selector - see line #50. - and select a theme named as current with _4touch as end (webkit).
-* a newer demo theme default_4touch is available [here](http://dev.xiligroup.com/?p=123#loadlinks "Xilitheme select links").
-* readme updated 090218 - see also php code 
-* The plugin post is frequently updated [dev.xiligroup.com](http://dev.xiligroup.com/xilitheme-select/ "Xilitheme select")
-* See also the [xiligroup plugins forum](http://forum2.dev.xiligroup.com/).
-* For WordPress theme's developers, now give specific info if mobile (not apple) use *opera mini* browser.
-[see Opera doc](http://dev.opera.com/articles/view/designing-with-opera-mini-in-mind/)
-= display current theme view =
-If `$wp_ismobile->cookienable` is set to 1, the theme can include a tag to refresh theme as viewing on a desktop browser. See tag example in php code.
+= link to display current theme even in mobile =
+If `$wp_ismobile->cookienable` is set to 1, the theme can include a tag to refresh theme as viewing on a desktop browser even if on mobile. See tag example in php code.
+
+`[xili-theme-link]` shortcode is also available and can be inserted everywhere (the link built detects if current or not current theme active).
+
+== how to refresh xilitheme cookie ==
+
+use param : ?xilitheme=reset at end of URI
 
 == Changelog ==
+
+= 2.0 =
+* MAJOR UPDATE
+* if using a previous version, you must to RENEW Settings via Dashboard Menu Settings/xilitheme select.
+* completely rewritten with latest WordPress functions and filters
+* no need to use specific suffix theme naming as previously.
 
 = 1.0.4 (2013-05-25) =
 * add __construct() php5
@@ -125,7 +105,7 @@ If `$wp_ismobile->cookienable` is set to 1, the theme can include a tag to refre
 = 0.9.1 = 
 * option: now able to display current theme view on iPhone / iPod.
 
-© 2013-05-25 dev.xiligroup.com
+© 2015-05-15 dev.xiligroup.com
 
 == Upgrade Notice ==
 
