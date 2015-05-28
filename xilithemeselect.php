@@ -200,7 +200,7 @@ class xilithemeselector {
 		if ( $this->current_rule && $this->select_mode ) {
 			if ( isset( $this->xilitheme_rules[$this->current_rule]['template'] ) && $this->xilitheme_rules[$this->current_rule]['template'] != '' ) {
 				return $this->xilitheme_rules[$this->current_rule]['template'];
-			} else { // not child theme
+			} else if ( isset( $this->xilitheme_rules[$this->current_rule]['stylesheet'] ) ) { // not child theme
 				return $this->xilitheme_rules[$this->current_rule]['stylesheet'];
 			}
 		}
